@@ -5,8 +5,8 @@ require_relative "lib/writebook/meta_tags/version"
 Gem::Specification.new do |spec|
   spec.name = "writebook-meta_tags"
   spec.version = Writebook::MetaTags::VERSION
-  spec.authors = ["Lucian Ghinda"]
-  spec.email = ["lucian@shortruby.com"]
+  spec.authors = [ "Lucian Ghinda" ]
+  spec.email = [ "lucian@shortruby.com" ]
 
   spec.summary = "Add meta tags to Writebook project"
   spec.description = "Will add simple generic meta tags to a Writebook project"
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = spec.homepage 
+  spec.metadata["source_code_uri"] = spec.homepage
   spec.metadata["changelog_uri"] = "#{spec.homepage}/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   end
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = [ "lib" ]
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
